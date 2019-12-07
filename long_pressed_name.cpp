@@ -21,10 +21,9 @@ int main()
     if (isLongPressedName("blex","aaleexx"))
         cout << "true";
 
-    else
-    {
+    else  
         cout << "false";
-    }
+    
     return 0;
 }
 
