@@ -10,6 +10,7 @@ def findMin(nums):
 
     while L < R:
         mid = (L + R) // 2
+        print(mid)
         if nums[mid] < nums[mid - 1]:
             return nums[mid]
         
